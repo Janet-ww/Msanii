@@ -1,0 +1,13 @@
+/* Add CSS for mobile menu toggle (you may need JavaScript for this) */
+
+@media (max-width: 768px) {
+    #navbar {
+      display: none; /* Hide the desktop navigation menu on mobile */
+    }
+  
+    #mobile {
+      display: block; /* Show mobile menu */
+      margin-right: 20px; /* Adjust the spacing */
+      cursor: pointer;
+    }
+  }
